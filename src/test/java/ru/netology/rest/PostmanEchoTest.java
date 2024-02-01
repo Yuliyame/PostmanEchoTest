@@ -7,7 +7,7 @@ public class PostmanEchoTest {
     @Test
 
     void shouldReturnSendData () {
-        var twxt = "Hi";
+        var text = "Hi";
         given()
                 .baseUri ("https://postman-echo.com")
                 .body(text)
