@@ -14,7 +14,7 @@ public class PostmanEchoTest {
         given()
                 .baseUri ("https://postman-echo.com")
                 .body(text)
-                .then()
+                .when()
                 .post("/post")
                 .then()
                 .statusCode(200)
